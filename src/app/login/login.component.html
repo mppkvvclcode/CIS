@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+       <meta charset="utf-8">
+       <title>HTML CSS Transparent Login Form</title>
+       </head>
+    <body>
+        
+        <div class="container">
+            <app-header></app-header>
+
+            <div class="box">
+
+                <!--                 <img src="/src/assets/logo-white.png"> -->
+                 <h1>Log In Here</h1>
+                 <h2>Email</h2>
+                 <input type="text" name="email" [(ngModel)]="email" placeholder="Email">
+                 <h2>Password</h2>
+                 <input type="password" name="password" [(ngModel)]="password" placeholder="Password">
+                
+                 <a class="sign-in" (click)= handleLogin() >Sign In</a>
+
+                 
+                 <a class="forget" href="#">Forget Password</a>
+                 <h2 style="color: yellow; text-align: center;" *ngIf='invalidLogin'>{{errorMessage}}</h2>
+
+                </div> 
+       
+             <app-footer></app-footer>
+
+            </div>
+       
+    </body>
+
+</html>

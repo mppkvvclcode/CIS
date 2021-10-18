@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: #fff;
+}
+.container{
+    position: relative;
+    width: 100%;  height: 100vh;
+    background: url(https://mpwzservices.mpwin.co.in/mpeb_english/assets/img/cover_page.jpg);
+    background-size: cover;
+    
+}
+.container .box{
+    position: absolute;
+    top: 50%;   left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;  height: 320px;
+    background: rgba(0,0,0,.5);
+    padding: 70px 30px;
+    box-sizing: border-box;
+}
+.container .box img{
+    position: absolute;
+    top: 0;  left: 50%;
+    transform: translate(-50%,-50%);
+    width: 120px;  height: 120px;
+    border-radius: 50%;
+}
+.container .box h1{
+    text-align: center;
+    color: orange;
+    font-size: x-large;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.container .box h2{
+    color: #fff;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.container .box input{
+    border: none;   outline: none;
+    width: 100%;  height: 30px;
+    background: transparent;    color: #fff;
+    padding: 10px 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fff;
+}
+.container .box a{
+   display: inline-block;
+   color: #fff;
+   position: relative;
+   text-decoration: none;
+
+}
+.container .box a.sign-in{
+   width: 100%;  height: 40px; 
+   /*background: #f44336;*/
+    background:  #f12459;
+
+   text-align: center;   line-height: 40px; 
+   margin-bottom: 20px;
+   border-radius: 20px;
+}
+.container .box a.sign-in:hover{
+   background: orange;  color: #f44336;
+   
+   font-weight: bold; 
+   
+}
+.container .box a.forget:hover{
+   color: orange; 
+   font-weight: bold; 
+}
+.container p{
+    color: white;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    margin-left: 27%;
+}

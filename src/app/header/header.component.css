@@ -1,0 +1,16 @@
+
+img{
+    width: 60px;
+    height: 60px;
+}
+h3{
+    background-color:transparent;
+    background: rgba(0,0,0,.5);
+    max-height: 9%;
+    width: 100%;
+    font-size: x-large;
+    
+    color:#f12459;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
